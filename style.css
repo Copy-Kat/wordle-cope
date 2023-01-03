@@ -1,0 +1,43 @@
+* {
+  background-color: DarkSlateGray;
+  color: white;
+}
+
+.container {
+  width: 75%; 
+  margin: auto;
+  display: flex; 
+}
+
+.block:after {
+  content: '';
+  display: block;
+  padding-bottom: 100%;
+}
+
+.block {
+  color: black;
+  width: 19%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 25px;
+  margin: 10px;
+  font-size: 7vw;
+}
+
+.empty {
+  background: AliceBlue;
+}
+
+.wrong {
+  background: Gray;
+}
+
+.correct{
+  background:ForestGreen;
+}
+
+.misplaced {
+  background:Yellow;
+}
